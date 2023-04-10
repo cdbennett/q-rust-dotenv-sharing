@@ -1,0 +1,10 @@
+[package]
+name = "api_project"
+version = "0.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+dotenvy = "0.15.7"
+lib_project = { path = "../lib_project" }
