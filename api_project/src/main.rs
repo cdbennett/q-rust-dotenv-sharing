@@ -11,6 +11,7 @@ fn main() {
     println!("API Project calling into the library.");
 
     lib_project::say_hello();
+    lib_project::do_stuff();
 
     println!("API Project done.");
 }
